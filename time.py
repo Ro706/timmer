@@ -12,7 +12,7 @@ Text = 'time up boss time up boss time up boss'
 language ='en'
 output = gTTS(text = Text,lang=language)
 output.save("time.mp3")
-os.system('mpv /data/data/com.termux/files/home/project/time.mp3')
+os.system('mpv /data/data/com.termux/files/home/timmer/time.mp3')
 from time import sleep as sp
 def timeup():
   for h in f"\n\n\t\t\t\t":
